@@ -4,25 +4,294 @@
     background-color: #F6F0E8;
 }
 
-header{
-    position: fixed; 
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+header img{
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 37%; 
-    margin-right: 20%;
-}
-
-nav a{
-    color: #76292D;
-    text-decoration: none;
+p{
     font-family: 'Montserrat';
-    font-size: 20px;
-    font-weight: bolder;
 }
+
+footer{
+    color: #2E428E;
+}
+
+footer p{
+    font-family:'Montserrat', sans-serif;
+    line-height: 22px;
+    font-size: 13px;
+    background-color: #D6E6EC;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #D6E6EC;
+}
+
+footer div section{
+    height: 50%;
+    width: 30%;
+    padding: 2%;
+    background-color: #D6E6EC;
+}
+
+footer h5 {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    margin-bottom: 2%;
+    background-color: #D6E6EC;
+}
+
+footer ul{
+    padding-left: 0%;
+    list-style: none;
+}
+
+footer ul li{
+    font-family:'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: #D6E6EC;
+}
+
+#skrivmail {
+    width: 60%;
+    padding: 10px;
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2E428E;
+    font-family:'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.tilmeld {
+    width: 90px;
+    padding: 10px;
+    background-color: #2E428E;
+    color: #D6E6EC;
+    font-family:'Montserrat', sans-serif;
+    margin-top:20px;
+    font-size: 14px;
+}
+
+
+/*LAPTOP LAYOUT*/
+@media screen and (min-width: 768px) {
+
+    .laptopbillede{
+        display: block;
+    }
+
+    .mobilbillede{
+        display: none;
+    }
+
+    .laptopheader{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+    .laptopheader section{
+        margin-right: 5%;
+    }
+    
+    .laptopheader nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        margin-left: 25%;
+    }
+    
+    .laptopheader nav a{
+        color: #76292D;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .mobilheader {
+        display:none;
+    }
+
+    h1{
+        padding-top: 10%;
+    }
+
+    .tokort {
+        width: 100%;
+        display: flex;
+    }
+    
+    .tokort section, .tokort div{
+        width: 50%;
+    }
+
+    .tokort p{
+        font-size: 40px;
+        padding: 1.5cm;
+        color: #76292D;
+    }
+
+    #tretrin{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin section{
+        width: 25%;
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin img{
+        margin-left: 20%;
+        background-color: #D6E6EC;
+    }
+    
+    
+    #tretrin h3{
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        text-align: center;
+        color: #2E428E;
+        padding-bottom: 3%;
+        padding-top: 10%;
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin p{
+        font-size: 18px;
+        text-align: center;
+        color: #2E428E;
+        background-color: #D6E6EC;
+    }
+}
+
+
+  /*MOBIL LAYOUT*/
+  @media screen and (max-width: 768px) {
+
+    .laptopbillede{
+        display: none;
+    }
+
+    .mobilbillede{
+        display: block;
+    }
+
+    .laptopheader {
+        display:none;
+    }
+
+    .mobilheader{
+        position: fixed;
+    }
+
+    #burgermenu{
+        position:fixed;
+        top:20px;
+        right:20px;
+    }
+
+    #hiddenMenu{
+        height:100px;
+        width:300px;
+        background-color: #F6F0E8;
+        position:fixed;
+        right:0px;
+        top:110px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    #hiddenMenu a{
+        color: #76292D;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: bolder;
+        display:block;
+    }
+
+    h1{
+        padding-top: 30%;
+    }
+
+    .tokort > section:nth-child(2) {
+        display: none;
+    }
+
+    .tokort section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+
+    .tokort p{
+        font-size: 24px;
+        color: #76292D;
+        padding-top: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+    }
+
+    #tretrin{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #D6E6EC;
+        width: 100%;
+    }
+    
+    #tretrin section{
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin img{
+        margin-left: 15%;
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin h3{
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        text-align: center;
+        color: #2E428E;
+        padding-bottom: 3%;
+        padding-top: 10%;
+        background-color: #D6E6EC;
+    }
+    
+    #tretrin p{
+        font-size: 18px;
+        text-align: center;
+        color: #2E428E;
+        background-color: #D6E6EC;
+    }
+
+    footer div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer div section{
+        height: 50%;
+        width: 100%;
+        padding: 5%;
+    }
+
+  }
