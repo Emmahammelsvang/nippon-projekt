@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F6F0E8;
+}
+
+header{
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%; 
+    margin-right: 20%;
+}
+
+nav a{
+    color: #76292D;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bolder;
+}
