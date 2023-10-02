@@ -8,7 +8,6 @@ main{
 }
 
 header img{
-    padding-left: 20px;
     margin-top: 15px;
 }
 
@@ -141,8 +140,11 @@ footer ul li{
 
     h1{
         padding-top: 10%;
+        font-family: 'Playfair Display';
+        text-align: center;
+        color: #76292D;
+        font-size: 40px;
     }
-
 
     h4{
         font-family:'Montserrat', sans-serif;
@@ -203,6 +205,10 @@ footer ul li{
         text-align: center;
         color: #2E428E;
         background-color: #D6E6EC;
+    }
+
+    .trekort h2 {
+
     }
 
     #errorknap{
@@ -268,6 +274,10 @@ footer ul li{
 
     h1{
         padding-top: 30%;
+        font-family: 'Playfair Display';
+        text-align: center;
+        color: #76292D;
+        font-size: 20px;
     }
 
     h6{
