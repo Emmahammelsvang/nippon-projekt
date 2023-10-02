@@ -8,7 +8,7 @@ main{
 }
 
 header img{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-top: 15px;
 }
 
@@ -73,7 +73,7 @@ footer ul li{
     margin-top: 20px;
 }
 
-.tilmeld {
+#tilmeld {
     width: 90px;
     padding: 10px;
     background-color: #2E428E;
@@ -143,6 +143,16 @@ footer ul li{
         padding-top: 10%;
     }
 
+
+    h4{
+        font-family:'Montserrat', sans-serif;
+        color: #76292D;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 12%;
+        padding-bottom: 5%;
+    }
+
     .tokort {
         width: 100%;
         display: flex;
@@ -194,7 +204,21 @@ footer ul li{
         color: #2E428E;
         background-color: #D6E6EC;
     }
+
+    #errorknap{
+        width: 110px;
+        padding: 10px;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        font-family:'Montserrat', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-left:45%;
+        border-style: none;
+    }
 }
+
+
 
 
   /*MOBIL LAYOUT*/
@@ -255,6 +279,27 @@ footer ul li{
         padding-top: 15px;
         padding-bottom: 15px;
         margin-top: 6%;
+    }
+
+
+    h4{
+        font-family:'Montserrat', sans-serif;
+        color: #76292D;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 35%;
+        padding-bottom: 10%;
+    }
+
+    #errorknap{
+        width: 110px;
+        padding: 10px;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        font-family:'Montserrat', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-left:35%;
     }
 
     .tokort > section:nth-child(2) {
