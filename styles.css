@@ -278,7 +278,7 @@ footer ul li{
         width: 100px;
     }
 
-    form #knappen{
+    form #knap{
         background-color: #2E428E;
         font-family: 'Montserrat';
         font-size: 14px;
@@ -288,6 +288,14 @@ footer ul li{
 
     div form{
         margin-left: 40%;
+    }
+
+    #output{
+        margin-left: 45%;
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 18px;
+        list-style: none;
     }
 
     #firekort{

@@ -19,6 +19,20 @@ function toggleMenu(){
 }
 
 
+const input = document.getElementById("input"); 
+const output = document.getElementById("output"); 
+const knap = document.getElementById("knap");
+
+const liste = [];
+let vistListe = "";
+
+knap.addEventListener("click", tilfoejTilListe);
+
+function tilfoejTilListe(){
+let nytInput = input.value;
+liste.push(nytInput);
+vistListe = vistListe + "<li>" + nytInput + "</li>"; output.innerHTML = vistListe;
+}
 
 
 
