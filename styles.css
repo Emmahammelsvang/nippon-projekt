@@ -287,7 +287,8 @@ footer ul li{
     }
 
     div form{
-        margin-left: 40%;
+        display: flex;
+        justify-content: center;
     }
 
     #output{
@@ -508,7 +509,6 @@ footer ul li{
         font-family: 'Playfair Display';
         color: #76292D;
         font-size: 17px;
-        text-align: center;
     }
 
     .trekort h5{
@@ -545,10 +545,30 @@ footer ul li{
     }
     
     form input{
-        background-color: #2E428E;
-        color: #D6E6EC;
         padding: 7px;
         width: 80px;
+    }
+
+    form #knap{
+        background-color: #2E428E;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #D6E6EC;
+        border-style: none;
+    }
+
+    div form{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    #output{
+        margin-left: 37%;
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 16px;
+        list-style: none;
     }
 
     #firekort{
