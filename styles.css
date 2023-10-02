@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 main{
     background-color: #F6F0E8;
 }
@@ -123,6 +127,12 @@ footer ul li{
         font-weight: bolder;
     }
 
+    nav a:hover{
+        border-bottom: #76292D;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+
     .mobilheader {
         display:none;
     }
@@ -139,11 +149,12 @@ footer ul li{
     }
 
     h1{
-        padding-top: 10%;
         font-family: 'Playfair Display';
         text-align: center;
         color: #76292D;
-        font-size: 40px;
+        font-size: 50px;
+        padding-top: 10%;
+        padding-bottom: 70px;
     }
 
     h4{
@@ -153,6 +164,14 @@ footer ul li{
         font-size: 40px;
         padding-top: 12%;
         padding-bottom: 5%;
+    }
+
+    h2{
+        font-family: 'Playfair Display';
+        text-align: center;
+        color: #76292D; 
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .tokort {
@@ -207,8 +226,92 @@ footer ul li{
         background-color: #D6E6EC;
     }
 
-    .trekort h2 {
+    .trekort{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
+    .trekort h2 {
+        font-family: 'Playfair Display';
+        color: #76292D;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .trekort h5{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 18px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .trekort p{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 16px;
+        margin-bottom:10px;
+    }
+
+    .trekort li{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 14px;
+        margin-left: 1%;
+    }
+
+    form{
+        padding: 10px;
+        padding-left: 50px;
+    }
+    
+    form label{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    form input{
+        padding: 10px;
+        width: 100px;
+    }
+
+    form #knappen{
+        background-color: #2E428E;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #D6E6EC;
+        border-style: none;
+    }
+
+    div form{
+        margin-left: 40%;
+    }
+
+    #firekort{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #firekort p{
+        color: #76292D;
+        font-size: 15px;
+    }
+
+    #videreknap{
+        font-family:'Montserrat', sans-serif;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        border-style: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 14px;
+        width: 6%;
+        margin-left: 85%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #errorknap{
@@ -223,8 +326,6 @@ footer ul li{
         border-style: none;
     }
 }
-
-
 
 
   /*MOBIL LAYOUT*/
@@ -246,6 +347,10 @@ footer ul li{
         position: fixed;
     }
 
+    header img{
+        padding-left: 10px;
+    }
+
     #burgermenu{
         position:fixed;
         top:20px;
@@ -260,7 +365,7 @@ footer ul li{
         right:0px;
         top:110px;
         opacity: 0;
-        transition: opacity 2s;
+        transition: opacity 1s;
     }
 
     #hiddenMenu a{
@@ -274,10 +379,11 @@ footer ul li{
 
     h1{
         padding-top: 30%;
+        padding-bottom: 5%;
         font-family: 'Playfair Display';
         text-align: center;
         color: #76292D;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     h6{
@@ -299,6 +405,15 @@ footer ul li{
         font-size: 30px;
         padding-top: 35%;
         padding-bottom: 10%;
+    }
+
+    h2{
+        font-family: 'Playfair Display';
+        text-align: center;
+        color: #76292D; 
+        font-size: 17px;
+        padding-top: 30px ;
+        padding-bottom: 20px;
     }
 
     #errorknap{
@@ -366,6 +481,99 @@ footer ul li{
         text-align: center;
         color: #2E428E;
         background-color: #D6E6EC;
+    }
+
+    .trekort{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .trekort section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
+    .trekort h2 {
+        font-family: 'Playfair Display';
+        color: #76292D;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .trekort h5{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 16px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .trekort p{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 14px;
+        margin-bottom:10px;
+    }
+
+    .trekort li{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 12px;
+    }
+
+    form{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    form label{
+        font-family: 'Montserrat';
+        color: #76292D;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    
+    form input{
+        background-color: #2E428E;
+        color: #D6E6EC;
+        padding: 7px;
+        width: 80px;
+    }
+
+    #firekort{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #firekort section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    #firekort p{
+        color: #76292D;
+        font-size: 12px;
+    }
+
+    #videreknap{
+        font-family:'Montserrat', sans-serif;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        border-style: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 14px;
+        width: 25%;
+        margin-left: 70%;
+        margin-top: 5%;
+        margin-bottom: 8%;
     }
 
     footer div{
