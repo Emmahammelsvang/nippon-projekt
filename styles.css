@@ -153,7 +153,7 @@ footer ul li{
         text-align: center;
         color: #76292D;
         font-size: 50px;
-        padding-top: 10%;
+        padding-top: 6%;
         padding-bottom: 70px;
     }
 
@@ -174,6 +174,22 @@ footer ul li{
         padding-bottom: 40px;
     }
 
+    #forside{
+        width: 100%;
+        display: flex;
+    }
+
+    #forside section, #forside div{
+        width: 50%;
+    }
+
+    #forside p{
+        font-size: 40px;
+        padding: 1.5cm;
+        padding-bottom: 20px;
+        color: #76292D;
+    }
+
     .tokort {
         width: 100%;
         display: flex;
@@ -184,10 +200,10 @@ footer ul li{
     }
 
     .tokort p{
-        font-size: 40px;
-        padding: 1.5cm;
-        padding-bottom: 20px;
-        color: #76292D;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     #abonnementknap{
@@ -409,8 +425,8 @@ footer ul li{
     }
 
     h1{
-        padding-top: 30%;
-        padding-bottom: 5%;
+        padding-top: 25%;
+        padding-bottom: 2%;
         font-family: 'Playfair Display';
         text-align: center;
         color: #76292D;
@@ -458,8 +474,24 @@ footer ul li{
         margin-left:35%;
     }
 
-    .tokort > section:nth-child(2) {
+    #forside > section:nth-child(2) {
         display: none;
+    }
+
+    #forside section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+
+    #forside p{
+        font-size: 24px;
+        color: #76292D;
+        padding-top: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
     }
 
     .tokort section{
@@ -470,12 +502,11 @@ footer ul li{
     }
 
     .tokort p{
-        font-size: 24px;
-        color: #76292D;
-        padding-top: 10%;
-        margin-left: 8%;
-        margin-right: 8%;
-        text-align: center;
+        text-align: left;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #abonnementknap{
