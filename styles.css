@@ -186,7 +186,19 @@ footer ul li{
     .tokort p{
         font-size: 40px;
         padding: 1.5cm;
+        padding-bottom: 20px;
         color: #76292D;
+    }
+
+    #abonnementknap{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        border-style: none;
+        padding: 10px;
+        margin-left: 40%;
+        margin-bottom: 20px;
     }
 
     #tretrin{
@@ -276,6 +288,7 @@ footer ul li{
     form input{
         padding: 10px;
         width: 100px;
+        margin-right: 20px;
     }
 
     form #knap{
@@ -456,6 +469,18 @@ footer ul li{
         text-align: center;
     }
 
+    #abonnementknap{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        background-color: #2E428E;
+        color: #D6E6EC;
+        border-style: none;
+        padding: 10px;
+        margin-left: 40%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
     #tretrin{
         display: flex;
         flex-wrap: wrap;
@@ -547,6 +572,7 @@ footer ul li{
     form input{
         padding: 7px;
         width: 80px;
+        margin-right: 10px;
     }
 
     form #knap{
