@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    <title>Dine valg af retter</title>
+    <title>Oversigt over køb</title>
     <meta name="description" content="Velkommen til Nippon, din vej til den lækre smag af Japan.">
     <meta name="keywords" content="Nippon, måltidskasser, mad, japan, hygge, familietid">
 </head>
@@ -44,74 +44,50 @@
     </header>
 
     <main>
-        <h1>DINE VALG</h1>
+        <h1>OVERSIGT</h1>
 
         <div class="trekort">
             <section>
                 <h5>Stegte ris med kylling og grøntsager </h5>
-                <p>Ingredienser og allergener</p>
-                <ul>
-                    <li>Ris</li>
-                    <li>Kylling</li>
-                    <li>Gulerødder</li>
-                    <li>Peberfrugt</li>
-                    <li>Løg</li>
-                    <li>Søde majs</li>
-                    <li>Sukkerærter</li>
-                    <li>Hvidløg</li>
-                    <li>Sesamfrø</li>
-                    <li>Soja</li>
-                    <li>Cashewnødder</li>
-                </ul>
             </section>
 
             <section>
                 <h5>Sushi med laks og agurk</h5>
-                <p>Ingredienser og allergener</p>
-                <ul>
-                    <li>Sushi ris</li>
-                    <li>Laks</li>
-                    <li>Agurk</li>
-                    <li>Ris-eddike</li>
-                    <li>Tang</li>
-                    <li>Flødeost</li>
-                    <li>Soja</li>
-                    <li>Sesamfrø</li>
-                </ul>
             </section>
 
             <section>
                 <h5>Nudler med oksekød</h5>
-                <p>Ingredienser og allergener</p>
-                <ul>
-                    <li>Fuldkorns nudler</li>
-                    <li>Oksekød i strimler</li>
-                    <li>Gulerødder</li>
-                    <li>Peberfrugt</li>
-                    <li>Løg</li>
-                    <li>Søde majs</li>
-                    <li>Sukkerærter</li>
-                    <li>Hvidløg</li>
-                    <li>Sesamfrø</li>
-                    <li>Soja</li>
-                    <li>Peanuts</li>
-                </ul>
             </section>
         </div>
 
-        <h2>Ønsker du fravalg?</h2>
+        <h2>Oplysninger</h2>
 
-        
-        <div>
-            <ul id="output"></ul>
+        <form class="oplysninger">
+            <label for="tekstfelt">Navn</label>
+            <input type="text" id="tekstfelt" name="tekstfelt">
+        </form>
 
-            <form>
-                <input type="text" id="input" placeholder="" value="">
-                <input type="button" id="knap" value="Tilføj">
-            </form>
-        </div>
+        <form class="oplysninger">
+            <label for="tekstfelt">Adresse</label>
+            <input type="text" id="tekstfelt" name="tekstfelt">
+        </form>
 
-        <button class="videreknap" onclick="window.location.href='oversigt.html';">Bestil</button>
+        <form class="oplysninger">
+            <label for="tekstfelt">E-mail</label>
+            <input type="text" id="tekstfelt" name="tekstfelt">
+        </form>
+
+        <form class="oplysninger">
+            <label for="tekstfelt">Mobilnummer</label>
+            <input type="text" id="tekstfelt" name="tekstfelt">
+        </form>
+
+        <form class="oplysninger">
+            <label for="tekstfelt">Betalingsoplysninger</label>
+            <input type="text" id="tekstfelt" name="tekstfelt">
+        </form>
+
+        <button class="videreknap" onclick="window.location.href='bekraeftelse.html';">Betal</button>
 
     </main>
 

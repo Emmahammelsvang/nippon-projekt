@@ -322,7 +322,16 @@ footer ul li{
         font-size: 15px;
     }
 
-    #videreknap{
+    .oplysninger input{
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    #tjek img{
+        margin-left: 30%;
+    }
+
+    .videreknap{
         font-family:'Montserrat', sans-serif;
         background-color: #2E428E;
         color: #D6E6EC;
@@ -616,7 +625,16 @@ footer ul li{
         font-size: 12px;
     }
 
-    #videreknap{
+    .oplysninger input{
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    #tjek img{
+        margin-left: 10%;
+    }
+
+    .videreknap{
         font-family:'Montserrat', sans-serif;
         background-color: #2E428E;
         color: #D6E6EC;
