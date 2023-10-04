@@ -1,0 +1,10 @@
+User agent: *
+Allow: /index.html
+Allow: /omos.html
+Allow: /oversigt.html
+Allow: /maaltidskasser.html
+Allow: /error404.html
+Allow: /dinevalg.html
+Allow: /detjapanskekoekken.html
+Allow: /boernefamiliekassen.html
+Allow: /bekraeftelse.html
