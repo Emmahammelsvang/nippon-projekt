@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 a{
@@ -348,7 +349,7 @@ footer ul li{
 
     #firekort{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     #firekort p{
