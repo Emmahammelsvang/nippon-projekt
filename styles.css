@@ -1,7 +1,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 a{
@@ -196,8 +195,7 @@ footer ul li{
     }
 
     #forside img{
-        margin-right: 120%;
-        margin-left: 150px ;
+        margin-left: 20% ;
     }
 
     #forside p{
@@ -232,7 +230,7 @@ footer ul li{
         color: #D6E6EC;
         border-style: none;
         padding: 10px;
-        margin-left: 400px;
+        margin-left: 50%;
         margin-bottom: 20px;
     }
 
@@ -350,11 +348,13 @@ footer ul li{
     #firekort{
         display: flex;
         justify-content: space-evenly;
+        margin-bottom: 2%;
     }
 
     #firekort p{
         color: #76292D;
         font-size: 15px;
+        text-align: center;
     }
 
     .oplysninger input{
