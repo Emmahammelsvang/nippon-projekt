@@ -136,6 +136,10 @@ footer ul li{
         display:none;
     }
 
+    #forsidebillede{
+        width: 100%;
+    }
+
     h6{
         font-family: 'Montserrat';
         text-align: center;
@@ -308,7 +312,6 @@ footer ul li{
 
     form{
         padding: 10px;
-        padding-left: 50px;
     }
     
     form label{
@@ -316,12 +319,13 @@ footer ul li{
         color: #76292D;
         font-size: 18px;
         font-weight: bolder;
+        margin-left: 3%;
     }
     
     form input{
         padding: 10px;
         width: 100px;
-        margin-right: 20px;
+        margin-left: 3%;
     }
 
     form #knap{
@@ -381,6 +385,11 @@ footer ul li{
         margin-bottom: 5%;
     }
 
+    .videreknap:hover{
+        background-color: #D6E6EC;
+        color: #2E428E;
+    }
+
     #errorknap{
         width: 110px;
         padding: 10px;
@@ -390,6 +399,7 @@ footer ul li{
         font-size: 14px;
         text-align: center;
         margin-left:45%;
+        margin-bottom: 10%;
         border-style: none;
     }
 }
@@ -425,12 +435,11 @@ footer ul li{
     }
 
     #hiddenMenu{
-        height:100px;
-        width:300px;
+        min-width: 100%;
+        min-height:100%;
         background-color: #F6F0E8;
         position:fixed;
         right:0px;
-        top:110px;
         opacity: 0;
         transition: opacity 1s;
     }
@@ -439,9 +448,19 @@ footer ul li{
         color: #76292D;
         text-decoration: none;
         font-family: 'Montserrat';
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 125px;
         font-weight: bolder;
+        text-align: center;
         display:block;
+    }
+
+    #hiddenMenu a:hover{
+        font-size: 28px;
+    }
+
+    #forsidebillede{
+        display: none;
     }
 
     h1{
@@ -501,7 +520,9 @@ footer ul li{
         font-family:'Montserrat', sans-serif;
         font-size: 14px;
         text-align: center;
+        margin-bottom: 5%;
         margin-left:35%;
+        border-style: none;
     }
 
     #forside > section:nth-child(2) {
@@ -629,7 +650,6 @@ footer ul li{
 
     form{
         padding-top: 10px;
-        padding-left: 10px;
     }
     
     form label{
@@ -637,12 +657,14 @@ footer ul li{
         color: #76292D;
         font-size: 13px;
         font-weight: bolder;
+        margin-left: 3%;
     }
     
     form input{
         padding: 7px;
         width: 80px;
-        margin-right: 10px;
+        margin-left: 3%;
+        
     }
 
     form #knap{
