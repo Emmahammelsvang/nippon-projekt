@@ -368,13 +368,13 @@ footer ul li{
         list-style: none;
     }
 
-    #firekort{
+    .firekort{
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 2%;
     }
 
-    #firekort p{
+    .firekort p{
         color: #76292D;
         font-size: 15px;
         text-align: center;
@@ -713,13 +713,13 @@ footer ul li{
         list-style: none;
     }
 
-    #firekort{
+    .firekort{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
 
-    #firekort section{
+    .firekort section{
         width: 55%;
         display: flex;
         flex-direction: column;
@@ -727,7 +727,7 @@ footer ul li{
         padding-bottom: 10%;
     }
 
-    #firekort p{
+    .firekort p{
         color: #76292D;
         font-size: 12px;
     }
