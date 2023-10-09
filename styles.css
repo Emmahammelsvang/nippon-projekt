@@ -313,7 +313,8 @@ footer ul li{
         font-family: 'Montserrat';
         color: #76292D;
         font-size: 16px;
-        margin-bottom:10px;
+        margin-bottom: 15%;
+        text-align: center;
     }
 
     .trekort li{
@@ -321,6 +322,11 @@ footer ul li{
         color: #76292D;
         font-size: 14px;
         margin-left: 1%;
+    }
+
+    .trekort img{
+        align-items: center;
+        padding-bottom: 7%;
     }
 
     form{
@@ -655,8 +661,9 @@ footer ul li{
     .trekort p{
         font-family: 'Montserrat';
         color: #76292D;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom:10px;
+        margin-top: 20px;
     }
 
     .trekort li{
