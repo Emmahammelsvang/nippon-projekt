@@ -451,6 +451,7 @@ footer ul li{
         position:fixed;
         top:20px;
         right:20px;
+        pointer-events: auto;
     }
 
     #hiddenMenu{
@@ -461,6 +462,7 @@ footer ul li{
         right:0px;
         opacity: 0;
         transition: opacity 1s;
+        pointer-events: none;
     }
 
     #hiddenMenu a{
