@@ -451,18 +451,19 @@ footer ul li{
         position:fixed;
         top:20px;
         right:20px;
-        pointer-events: auto;
     }
 
     #hiddenMenu{
         min-width: 100%;
-        min-height:100%;
+        min-height:25%;
         background-color: #F6F0E8;
+        border-color: #76292D;
+        border-style: solid;
+        border-width: 1px;
         position:fixed;
         right:0px;
         opacity: 0;
-        transition: opacity 1s;
-        pointer-events: none;
+        transition: opacity 0.5s;
     }
 
     #hiddenMenu a{
@@ -470,7 +471,7 @@ footer ul li{
         text-decoration: none;
         font-family: 'Montserrat';
         font-size: 25px;
-        line-height: 125px;
+        line-height: 50px;
         font-weight: bolder;
         text-align: center;
         display:block;
@@ -644,6 +645,7 @@ footer ul li{
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
+        align-items: center;
     }
 
     .trekort h2 {
